@@ -1,8 +1,26 @@
-# React + Vite
+# Mini Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This small project is a website that simulates a blog. The same was done along with a react course.
 
-Currently, two official plugins are available:
+Website functions:
+  - Login and user registration;
+  - Creation and manipulation of your posts (Create, Edit and Delete);
+  - View all posts from all users;
+  - Search for posts using specific tags.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies used:
+  - React;
+  - React Router;
+  - Hooks;
+  - Context;
+  - Firebase;
+  - Styled Components.
+
+Improvement points:
+  - Make the website responsive;
+  - It is possible to componentize some more elements, such as Forms (creating and editing          posts), and when you do not find posts available;
+  - Separate component organization for layouts.
+
+To access the website: [miniblog](https://miniblog-bona.netlify.app/)
+
+**Please, if you find any errors or bugs, contact me.**
