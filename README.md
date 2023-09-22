@@ -2,13 +2,13 @@
 
 This small project is a website that simulates a blog. The same was done along with a react course.
 
-Website functions:
+## Website functions:
   - Login and user registration;
   - Creation and manipulation of your posts (Create, Edit and Delete);
   - View all posts from all users;
   - Search for posts using specific tags.
 
-Technologies used:
+## Technologies used:
   - React;
   - React Router;
   - Hooks;
@@ -16,7 +16,7 @@ Technologies used:
   - Firebase;
   - Styled Components.
 
-Improvement points:
+## Improvement points:
   - Make the website responsive;
   - It is possible to componentize some more elements, such as Forms (creating and editing          posts), and when you do not find posts available;
   - Separate component organization for layouts.
