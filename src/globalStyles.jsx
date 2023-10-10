@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 // styled components
 import styled, { css, createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle`   
     body {
         background-color: #F6FCFF;
+        transition: all 0.3s ease-in-out;
         padding: 0;
         margin: 0;
         font-family: "Montserrat", sans-serif;
@@ -45,7 +46,12 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 40%;
         margin: 0 auto;
     }
-
+    @media (max-width: 650px) {
+      form {
+        max-width: 60%;
+        margin: 0 auto;
+      }
+    }
     label {
         display: flex;
         flex-direction: column;

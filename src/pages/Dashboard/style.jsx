@@ -54,6 +54,11 @@ export const ButtonCorret = css`
   height: 30px;
   width: 100px;
   font-size: .7em;
+
+  @media (max-width: 650px) {
+    margin-top: 12px;
+  }
+  
 `
 
 export const ButtonCorretLink = styled(LinkBtnOutline)`

@@ -8,4 +8,8 @@ export const FooterStyled = styled.footer`
     align-items: center;
     justify-content: center;
     background-color: #edf3f6;
+
+    @media (max-width: 400px) {
+        font-size: .8em;
+    }
 `

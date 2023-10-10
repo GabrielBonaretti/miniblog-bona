@@ -11,6 +11,10 @@ export const NavbarStyled = styled.nav`
     justify-content: space-between;
     align-items: center;
     padding: .5em 2em;
+
+    @media (max-width: 650px) {
+        font-size: .7em;
+    }
 `
 
 export const Brand = styled(NavLink)`
@@ -28,11 +32,12 @@ export const LinksList = styled.ul`
 `
 
 export const LinkStyled = styled(NavLink)`
-
     padding: .4em .6em;
+
     &.active {
         background-color: #000;
         color: #fff;
     }
+
 `
 
