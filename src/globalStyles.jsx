@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 import styled, { css, createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`   
+    * {
+      transition: all 0.3s ease-in-out;
+
+    }
+
     body {
         background-color: #F6FCFF;
-        transition: all 0.3s ease-in-out;
         padding: 0;
         margin: 0;
         font-family: "Montserrat", sans-serif;
