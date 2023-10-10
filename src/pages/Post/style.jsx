@@ -13,6 +13,10 @@ export const H3Styled = styled.h3`
 export const Tags = styled.div`
     display: flex;
     justify-content: center;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 `
 
 export const TagsText = styled.p`
@@ -21,4 +25,8 @@ export const TagsText = styled.p`
 
 export const TagsSpan = styled.span`
     font-weight: bold;
+`
+
+export const ImageStyled = styled.img`
+    max-width: 80%;
 `

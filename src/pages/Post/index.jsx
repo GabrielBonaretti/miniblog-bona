@@ -1,5 +1,5 @@
 // styled components
-import { H3Styled, PostContainer, Tags, TagsSpan, TagsText } from "./style";
+import { H3Styled, PostContainer, Tags, TagsSpan, TagsText, ImageStyled } from "./style";
 
 // hooks
 import { useParams } from "react-router-dom"
@@ -15,7 +15,7 @@ const Post = () => {
             {post && (
                 <>
                     <h2>{post.title}</h2>
-                    <img src={post.image} alt={post.title} />
+                    <ImageStyled src={post.image} alt={post.title} />
                     <p>{post.body}</p>
                     <H3Styled>This post is about:</H3Styled>
                     <Tags>
